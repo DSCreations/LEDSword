@@ -63,7 +63,6 @@ void setup(void) {
 }
 
 void Timer_Init(void) {
-
     SysCtlPeripheralEnable(SYSCTL_PERIPH_TIMER0);
     TimerConfigure(TIMER0_BASE, TIMER_CFG_ONE_SHOT);
 
